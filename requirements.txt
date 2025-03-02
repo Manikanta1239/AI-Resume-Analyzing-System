@@ -1,0 +1,10 @@
+streamlit==1.31.0
+pdf2image==1.16.3
+google-generativeai==0.3.0
+python-dotenv==1.0.0
+Pillow==10.2.0
+poppler-utils==24.02.0
+python-poppler==0.3.0
+base64==1.7
+io==0.0.1
+time==3.11

@@ -2,7 +2,6 @@
 
 A powerful web application that uses AI to analyze resumes against job descriptions, providing detailed evaluations and match percentages. Built with Streamlit and powered by Google's Gemini AI.
 
-![AI Resume Analyzer](https://drive.google.com/file/d/1iCWFGu0SI3HeKzg3WZE9YKAu8kpg4OeH/view?usp=drive_link)
 
 ## 🚀 Features
 
