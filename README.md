@@ -1,15 +1,14 @@
 # AI Resume Analyzing System
 
-A powerful web application that uses AI to analyze resumes against job descriptions, providing detailed evaluations and match percentages. Built with Streamlit and powered by Google's Gemini AI.
-
+A powerful web application that uses AI to analyze resumes against job descriptions, providing detailed evaluations and match percentages. Built with Streamlit and powered by Google's Gemini 1.5 Flash AI.
 
 ## 🚀 Features
 
-- **Resume Analysis**: Get detailed professional evaluations of your resume
+- **Resume Analysis**: Get detailed professional evaluations of your resume from an HR perspective
 - **ATS Scanning**: Calculate match percentage against job descriptions
 - **Keyword Analysis**: Identify missing keywords and improvement areas
-- **User-Friendly Interface**: Clean and intuitive design with real-time feedback
-- **PDF Support**: Handles PDF resume uploads seamlessly
+- **User-Friendly Interface**: Clean and intuitive design with animations and real-time feedback
+- **PDF Support**: Handles PDF resume uploads with image conversion capabilities
 
 ## 🛠️ Installation
 
@@ -38,11 +37,12 @@ GOOGLE_API_KEY=your_api_key_here
 ## 📋 Requirements
 
 ```plaintext
-streamlit==1.31.0
-pdf2image==1.16.3
-google-generativeai==0.3.0
-python-dotenv==1.0.0
-Pillow==10.2.0
+base64
+google-generativeai
+pdf2image
+Pillow
+python-dotenv
+streamlit
 ```
 
 ## 🚀 Usage
@@ -59,24 +59,27 @@ streamlit run app.py
 4. Paste the job description
 
 5. Choose between:
-   - 🔎 Analyze Resume: For detailed evaluation
-   - 📈 PERCENTAGE Match: For ATS matching score
+   - 🔎 Analyze Resume: For detailed HR evaluation perspective
+   - 📈 PERCENTAGE Match: For ATS matching score and missing keywords
 
 ## 💡 How It Works
 
-The system uses Google's Gemini AI to:
-1. Extract information from uploaded resumes
-2. Compare resume content with job descriptions
-3. Provide detailed analysis and recommendations
-4. Calculate matching scores based on ATS criteria
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+The system uses Google's Gemini 1.5 Flash AI to:
+1. Convert PDF resumes to images for processing
+2. Analyze resumes for various job roles including:
+   - Data Science
+   - Data Analyst
+   - DevOPS
+   - Machine Learning Engineer
+   - Prompt Engineer
+   - AI Engineer
+   - Full Stack Web Development
+   - Big Data Engineering
+   - Marketing Analyst
+   - Human Resource Manager
+   - Software Developer
+3. Provide detailed analysis from an HR perspective
+4. Calculate ATS matching scores and identify missing keywords
 
 ## 📜 License
 
